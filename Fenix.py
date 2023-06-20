@@ -38,7 +38,8 @@ try:
 
     print(Colorate.Vertical(Colors.yellow_to_red, banners.banner1))
 
-    print(f'\n[ {c.yellow}×{c.white} ] O Fenex, é uma ferramenta de penterster, ele tem a capacidade de encontrar diretórios em sites, e páginas que podem haver alguma vulnerabilidade.')
+    print(f'\n[ {c.yellow}×{c.white} ] O Fenex, é uma ferramenta de pente
+    ster, ele tem a capacidade de encontrar diretórios em sites, e páginas que podem haver alguma vulnerabilidade.')
 
     print(f'\n{c.bwhite}[ENTER]{c.white} para voltar ao menu.')
 
