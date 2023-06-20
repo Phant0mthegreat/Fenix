@@ -1445,9 +1445,10 @@ try:
    print(f'[{c.blue}&{c.white}] Escaneamento finalizado\n[{c.cyan}√{c.white}] Total de páginas encontradas: {qnut}\n\n{c.bwhite}[ENTER]{c.white} para voltar ao menu.')
 
    input('')
-
+   
+  except KeyboardInterrupt:
+      print(f'\n[#] O programa foi interrompido.')
   except:
-
       print(f'{c.red}Não foi possível se conectar ao Alvo !\nPossíveis causas ↓\n• Existe uma / no final da URL\n• A URL não foi escrita corretamente\n• O site está offline')
 
       sys.exit()
