@@ -1448,6 +1448,7 @@ try:
    
   except KeyboardInterrupt:
       print(f'\n[#] O programa foi interrompido.')
+      sys.exit()
   except:
       print(f'{c.red}Não foi possível se conectar ao Alvo !\nPossíveis causas ↓\n• Existe uma / no final da URL\n• A URL não foi escrita corretamente\n• O site está offline')
 
