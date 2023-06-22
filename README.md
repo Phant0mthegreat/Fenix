@@ -20,7 +20,10 @@ Fenix, é uma ferramenta feita em python que utiliza o método de brute force pa
    
  - `pip install -r requirements.txt`
 
+## 💉 Iniciar
+Use o comando ↓
  - `python3 Fenix`
+para iniciar o programa
 
 ## 📜 Nota
 Para que a instalação funcione, é preciso ter o "git", a línguagem python e o "pip" instalados.
