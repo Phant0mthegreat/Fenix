@@ -135,7 +135,7 @@ try:
 
     response = requests.get(full_urll)
     if response.status_code == 200 or response.status_code // 100 == 3:
-      print(f'[ {c.green}!{c.white} ] {full_urll} - Encontrado\n')
+      print(f'[ {c.green}!{c.white} ] {full_urll} - Encontrada\n')
       qnut=qnut+1
     else:
       qnut=qnut
