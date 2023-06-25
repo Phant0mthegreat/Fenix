@@ -25,6 +25,9 @@ try:
   if not nt():
     print(f'{c.red}Não foi possível se conectar ao Alvo !\nPossíveis causas ↓\n• Existe uma / no final da URL\n• A URL não foi escrita corretamente\n• O site está offline')
     sys.exit()
+  elif urlll[-1:]=='/':
+    print(f'{c.red}Não foi possível se conectar ao Alvo !\nPossíveis causas ↓\n• Existe uma / no final da URL\n• A URL não foi escrita corretamente\n• O site está offline')
+    sys.exit()
 
   uris = [
     "/wp-content",
