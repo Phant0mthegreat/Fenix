@@ -22,6 +22,8 @@ try:
         return False
    except requests.exceptions.InvalidSchema:
         return False
+   except requests.exceptions.InvalidURL:
+        return False
   if not nt():
     print(f'{c.red}Não foi possível se conectar ao Alvo !\nPossíveis causas ↓\n• Existe uma / no final da URL\n• A URL não foi escrita corretamente\n• O site está offline')
     sys.exit()
