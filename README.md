@@ -27,6 +27,7 @@ para iniciar o programa
 
 ## 🗃️ Versão Atual: 2.0
 1.0 = 20/06/2023
+
 2.0 = 25/06/2033
 
 ## 📜 Nota
