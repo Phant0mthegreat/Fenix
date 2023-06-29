@@ -23,7 +23,7 @@ try:
   os.system('clear')
   if ech=='01' or ech=='1':
     print(Colorate.Vertical(Colors.yellow_to_red, banners.banner1))
-    print(f'''[ 🗃️  ] Qual Wordlist você vai ultizar ?
+    print(f'''[ 🗃️ ] Qual Wordlist você vai ultizar ?
     
 [1] apache.txt {c.red}({c.white}Contém {c.red}13232{c.white} combinações{c.red}){c.white}
 [2] big.txt {c.red}({c.white}Contém{c.red} 20468{c.white} combinações{c.red}){c.white}
