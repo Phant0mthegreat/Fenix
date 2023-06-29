@@ -8,7 +8,7 @@ try:
   url=urll.replace(" ", "")
   os.system('clear')
   print(Colorate.Vertical(Colors.yellow_to_red, banners.banner1))
-  print(f'\n[ 💉 ] Alvo: {url}\n[ 🗂️  ] Wordlist: Fenixpdr.txt\n[ 👁️  ] Visualizar não encontrados: {c.green}✔{c.white}\n')
+  print(f'\n[ 💉 ] Alvo: {url}\n[ 🗂️ ] Wordlist: Fenixpdr.txt\n[ 👁️ ] Visualizar não encontrados: {c.green}✔{c.white}\n')
   qgel=0
   qnut=0
   timeout = 5
@@ -50,7 +50,7 @@ try:
   url=urll.replace(" ", "")
   os.system('clear')
   print(Colorate.Vertical(Colors.yellow_to_red, banners.banner1))
-  print(f'\n[ 💉 ] Alvo: {url}\n[ 🗂️  ] Wordlist: Fenixpdr.txt\n[ 👁️  ] Visualizar não encontrados: {c.red}✖{c.white}\n')
+  print(f'\n[ 💉 ] Alvo: {url}\n[ 🗂️ ] Wordlist: Fenixpdr.txt\n[ 👁️ ] Visualizar não encontrados: {c.red}✖{c.white}\n')
   qgel=0
   qnut=0
   timeout = 5
@@ -91,7 +91,7 @@ try:
   url=urll.replace(" ", "")
   os.system('clear')
   print(Colorate.Vertical(Colors.yellow_to_red, banners.banner1))
-  print(f'\n[ 💉 ] Alvo: {url}\n[ 🗂️  ] Wordlist: apache.txt\n[ 👁️  ] Visualizar não encontrados: {c.green}✔{c.white}\n')
+  print(f'\n[ 💉 ] Alvo: {url}\n[ 🗂️ ] Wordlist: apache.txt\n[ 👁️ ] Visualizar não encontrados: {c.green}✔{c.white}\n')
   qgel=0
   qnut=0
   timeout = 5
@@ -133,7 +133,7 @@ try:
   url=urll.replace(" ", "")
   os.system('clear')
   print(Colorate.Vertical(Colors.yellow_to_red, banners.banner1))
-  print(f'\n[ 💉 ] Alvo: {url}\n[ 🗂️  ] Wordlist: apache.txt\n[ 👁️  ] Visualizar não encontrados: {c.red}✖{c.white}\n')
+  print(f'\n[ 💉 ] Alvo: {url}\n[ 🗂️ ] Wordlist: apache.txt\n[ 👁️ ] Visualizar não encontrados: {c.red}✖{c.white}\n')
   qgel=0
   qnut=0
   timeout = 5
@@ -174,7 +174,7 @@ try:
   url=urll.replace(" ", "")
   os.system('clear')
   print(Colorate.Vertical(Colors.yellow_to_red, banners.banner1))
-  print(f'\n[ 💉 ] Alvo: {url}\n[ 🗂️  ] Wordlist: common.txt\n[ 👁️  ] Visualizar não encontrados: {c.green}✔{c.white}\n')
+  print(f'\n[ 💉 ] Alvo: {url}\n[ 🗂️ ] Wordlist: common.txt\n[ 👁️ ] Visualizar não encontrados: {c.green}✔{c.white}\n')
   qgel=0
   qnut=0
   timeout = 5
@@ -216,7 +216,7 @@ try:
   url=urll.replace(" ", "")
   os.system('clear')
   print(Colorate.Vertical(Colors.yellow_to_red, banners.banner1))
-  print(f'\n[ 💉 ] Alvo: {url}\n[ 🗂️  ] Wordlist: common.txt\n[ 👁️  ] Visualizar não encontrados: {c.red}✖{c.white}\n')
+  print(f'\n[ 💉 ] Alvo: {url}\n[ 🗂️ ] Wordlist: common.txt\n[ 👁️ ] Visualizar não encontrados: {c.red}✖{c.white}\n')
   qgel=0
   qnut=0
   timeout = 5
@@ -257,7 +257,7 @@ try:
   url=urll.replace(" ", "")
   os.system('clear')
   print(Colorate.Vertical(Colors.yellow_to_red, banners.banner1))
-  print(f'\n[ 💉 ] Alvo: {url}\n[ 🗂️  ] Wordlist: big.txt\n[ 👁️  ] Visualizar não encontrados: {c.green}✔{c.white}\n')
+  print(f'\n[ 💉 ] Alvo: {url}\n[ 🗂️ ] Wordlist: big.txt\n[ 👁️ ] Visualizar não encontrados: {c.green}✔{c.white}\n')
   qgel=0
   qnut=0
   timeout = 5
@@ -299,7 +299,7 @@ try:
   url=urll.replace(" ", "")
   os.system('clear')
   print(Colorate.Vertical(Colors.yellow_to_red, banners.banner1))
-  print(f'\n[ 💉 ] Alvo: {url}\n[ 🗂️  ] Wordlist: big.txt\n[ 👁️  ] Visualizar não encontrados: {c.red}✖{c.white}\n')
+  print(f'\n[ 💉 ] Alvo: {url}\n[ 🗂️ ] Wordlist: big.txt\n[ 👁️ ] Visualizar não encontrados: {c.red}✖{c.white}\n')
   qgel=0
   qnut=0
   timeout = 5
@@ -340,7 +340,7 @@ try:
   url=urll.replace(" ", "")
   os.system('clear')
   print(Colorate.Vertical(Colors.yellow_to_red, banners.banner1))
-  print(f'\n[ 💉 ] Alvo: {url}\n[ 🗂️  ] Wordlist: sensitive_files_unix.txt\n[ 👁️  ] Visualizar não encontrados: {c.green}✔{c.white}\n')
+  print(f'\n[ 💉 ] Alvo: {url}\n[ 🗂️ ] Wordlist: sensitive_files_unix.txt\n[ 👁️ ] Visualizar não encontrados: {c.green}✔{c.white}\n')
   qgel=0
   qnut=0
   timeout = 5
@@ -382,7 +382,7 @@ try:
   url=urll.replace(" ", "")
   os.system('clear')
   print(Colorate.Vertical(Colors.yellow_to_red, banners.banner1))
-  print(f'\n[ 💉 ] Alvo: {url}\n[ 🗂️  ] Wordlist: sensitive_files_unix.txt\n[ 👁️  ] Visualizar não encontrados: {c.red}✖{c.white}\n')
+  print(f'\n[ 💉 ] Alvo: {url}\n[ 🗂️ ] Wordlist: sensitive_files_unix.txt\n[ 👁️ ] Visualizar não encontrados: {c.red}✖{c.white}\n')
   qgel=0
   qnut=0
   timeout = 5
