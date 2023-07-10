@@ -418,6 +418,8 @@ try:
       qgel=qgel+1
   print(f'[{c.blue}&{c.white}] Escaneamento finalizado\n[{c.cyan}√{c.white}] Total de páginas encontradas: {qnut}\n\n{c.bwhite}[ENTER]{c.white} para voltar ao menu.')
   input('')
+except requests.exceptions.ConnectionError:
+  print(f'{c.red}Não foi possível se conectar ao Alvo !\nPossíveis causas ↓\n• Não existe uma / no final da URL\n• A URL não foi escrita corretamente\n• O site está offline')
 except ConnectionError:
   print(f'{c.red}Não foi possível se conectar ao Alvo !\nPossíveis causas ↓\n• Não existe uma / no final da URL\n• A URL não foi escrita corretamente\n• O site está offline')
 except ConnectionAbortedError:
