@@ -1,41 +1,37 @@
 import URIs, os, cores as c, banners, sys, time
 from pystyle import Colorate, Colors
+from rich.panel import Panel
+from rich.console import Console
+console = Console()
 try:
  banners.carregando()
- print('      © Phant0m The Great\n\n')
+ print(f"{'© Phant0m The Great' : ^30}")
  time.sleep(2)
  while True:
   os.system('clear')
   print(Colorate.Vertical(Colors.yellow_to_red, banners.banner1))
-  print(f'''
-╔════════════════════════════════════════╗
-║                                        ║
-║       {Colorate.Vertical(Colors.yellow_to_red, '          FENIX')}                  ║
-║                                        ║
-║════════════════════════════════════════║
-║                                        ║
-║  [01] {c.blue}Escanear{c.white}    ║   [03] {c.blue}Criador{c.white}     ║
-║                                        ║
-║  [02] {c.blue}Informações{c.white} ║   [00] {c.blue}Sair{c.white}        ║
-║                                        ║
-╚════════════════════════════════════════╝''')
-  ech=input(f'\nDigite sua escolha [{c.bblue}>{c.white}] ')
+  console.print(Panel.fit("""[01] [red]Escanear[white]  [02] [red]Informações[white]
+  
+[03] [red]Criador[white]   [00] [red]Sair[white]""", padding=(2,3), title="[bold yellow]FENIX"))
+  ech=input(f'\nDigite sua escolha [{c.bred}>{c.white}] ')
   os.system('clear')
   if ech=='01' or ech=='1':
     print(Colorate.Vertical(Colors.yellow_to_red, banners.banner1))
-    print(f'''[ 🗃️ ] Qual Wordlist você vai ultizar ?
-    
-[1] apache.txt {c.red}({c.white}Contém {c.red}13232{c.white} combinações{c.red}){c.white}
-[2] big.txt {c.red}({c.white}Contém{c.red} 20468{c.white} combinações{c.red}){c.white}
-[3] common.txt {c.red}({c.white}Contém{c.red} 4613{c.white} combinações{c.red}){c.white}
-[4] Fenixpdr.txt {c.red}({c.white}Contém{c.red} 100{c.white} combinações{c.red}){c.white}
-[5] sensitive_files_unix.txt {c.red}({c.white}Contém{c.red} 16{c.white} combinações{c.red}){c.white}''')
-    asc=input(f'\n[{c.bblue}>{c.white}] ')
+    print('''[ 🗃️ ] Qual Wordlist você vai ultizar ?''')
+    console.print(Panel.fit('''[1] apache.txt [red]([white]Contém [red]13232[white] combinações[red])[white]
+[2] big.txt [red]([white]Contém[red] 20468[white] combinações[red])[white]
+[3] common.txt [red]([white]Contém[red] 4613[white] combinações[red])[white]
+[4] Fenixpdr.txt [red]([white]Contém[red] 100[white] combinações[red])[white]
+[5] joomla.txt [red]([white]Contém[red] 1544[white] combinações [red])[white]
+[6] robots.txt [red]([white]Contém[red] 990[white] combinações [red])[white]
+[7] sensitive_files_unix.txt [red]([white]Contém[red] 16[white] combinações[red])[white]
+[8] wp_themes.txt [red]([white]Contém[red] 21149[white] combinações[red])[white]'''))
+    asc=input(f'\n[{c.bred}>{c.white}] ')
     if asc=='1':
       os.system('clear')
       print(Colorate.Vertical(Colors.yellow_to_red, banners.banner1))
       print(f'[ {c.yellow}?{c.white} ] Você deseja visualizar os diretórios/arquivos que não foram encontrados ? ({c.green}s{c.white}/{c.red}n{c.white})')
-      escoh=input(f'\n[{c.bblue}>{c.white}] ')
+      escoh=input(f'\n[{c.bred}>{c.white}] ')
       if escoh=='s' or escoh=='S':
         os.system('clear')
         print(Colorate.Vertical(Colors.yellow_to_red, banners.banner1))
@@ -48,7 +44,7 @@ try:
       os.system('clear')
       print(Colorate.Vertical(Colors.yellow_to_red, banners.banner1))
       print(f'[ {c.yellow}?{c.white} ] Você deseja visualizar os diretórios/arquivos que não foram encontrados ? ({c.green}s{c.white}/{c.red}n{c.white})')
-      escoh=input(f'\n[{c.bblue}>{c.white}] ')
+      escoh=input(f'\n[{c.bred}>{c.white}] ')
       if escoh=='s' or escoh=='S':
         os.system('clear')
         print(Colorate.Vertical(Colors.yellow_to_red, banners.banner1))
@@ -61,7 +57,7 @@ try:
       os.system('clear')
       print(Colorate.Vertical(Colors.yellow_to_red, banners.banner1))
       print(f'[ {c.yellow}?{c.white} ] Você deseja visualizar os diretórios/arquivos que não foram encontrados ? ({c.green}s{c.white}/{c.red}n{c.white})')
-      escoh=input(f'\n[{c.bblue}>{c.white}] ')
+      escoh=input(f'\n[{c.bred}>{c.white}] ')
       if escoh=='s' or escoh=='S':
         os.system('clear')
         print(Colorate.Vertical(Colors.yellow_to_red, banners.banner1))
@@ -74,7 +70,7 @@ try:
       os.system('clear')
       print(Colorate.Vertical(Colors.yellow_to_red, banners.banner1))
       print(f'[ {c.yellow}?{c.white} ] Você deseja visualizar os diretórios/arquivos que não foram encontrados ? ({c.green}s{c.white}/{c.red}n{c.white})')
-      escoh=input(f'\n[{c.bblue}>{c.white}] ')
+      escoh=input(f'\n[{c.bred}>{c.white}] ')
       if escoh=='s' or escoh=='S':
         os.system('clear')
         print(Colorate.Vertical(Colors.yellow_to_red, banners.banner1))
@@ -83,11 +79,11 @@ try:
         os.system('clear')
         print(Colorate.Vertical(Colors.yellow_to_red, banners.banner1))
         URIs.URI_Fenixpdr2()
-    elif asc=='5':
+    elif asc=='7':
       os.system('clear')
       print(Colorate.Vertical(Colors.yellow_to_red, banners.banner1))
       print(f'[ {c.yellow}?{c.white} ] Você deseja visualizar os diretórios/arquivos que não foram encontrados ? ({c.green}s{c.white}/{c.red}n{c.white})')
-      escoh=input(f'\n[{c.bblue}>{c.white}] ')
+      escoh=input(f'\n[{c.bred}>{c.white}] ')
       if escoh=='s' or escoh=='S':
         os.system('clear')
         print(Colorate.Vertical(Colors.yellow_to_red, banners.banner1))
@@ -96,6 +92,45 @@ try:
         os.system('clear')
         print(Colorate.Vertical(Colors.yellow_to_red, banners.banner1))
         URIs.URI_SFU2()
+    elif asc=='5':
+      os.system('clear')
+      print(Colorate.Vertical(Colors.yellow_to_red, banners.banner1))
+      print(f'[ {c.yellow}?{c.white} ] Você deseja visualizar os diretórios/arquivos que não foram encontrados ? ({c.green}s{c.white}/{c.red}n{c.white})')
+      escoh=input(f'\n[{c.bred}>{c.white}] ')
+      if escoh=='s' or escoh=='S':
+        os.system('clear')
+        print(Colorate.Vertical(Colors.yellow_to_red, banners.banner1))
+        URIs.URI_jom1()
+      elif escoh=='n' or escoh=='N':
+        os.system('clear')
+        print(Colorate.Vertical(Colors.yellow_to_red, banners.banner1))
+        URIs.URI_jom2()
+    elif asc=='8':
+      os.system('clear')
+      print(Colorate.Vertical(Colors.yellow_to_red, banners.banner1))
+      print(f'[ {c.yellow}?{c.white} ] Você deseja visualizar os diretórios/arquivos que não foram encontrados ? ({c.green}s{c.white}/{c.red}n{c.white})')
+      escoh=input(f'\n[{c.bred}>{c.white}] ')
+      if escoh=='s' or escoh=='S':
+        os.system('clear')
+        print(Colorate.Vertical(Colors.yellow_to_red, banners.banner1))
+        URIs.URI_wp1()
+      elif escoh=='n' or escoh=='N':
+        os.system('clear')
+        print(Colorate.Vertical(Colors.yellow_to_red, banners.banner1))
+        URIs.URI_wp2()
+    elif asc=='6':
+      os.system('clear')
+      print(Colorate.Vertical(Colors.yellow_to_red, banners.banner1))
+      print(f'[ {c.yellow}?{c.white} ] Você deseja visualizar os diretórios/arquivos que não foram encontrados ? ({c.green}s{c.white}/{c.red}n{c.white})')
+      escoh=input(f'\n[{c.bred}>{c.white}] ')
+      if escoh=='s' or escoh=='S':
+        os.system('clear')
+        print(Colorate.Vertical(Colors.yellow_to_red, banners.banner1))
+        URIs.URI_rob1()
+      elif escoh=='n' or escoh=='N':
+        os.system('clear')
+        print(Colorate.Vertical(Colors.yellow_to_red, banners.banner1))
+        URIs.URI_rob2()
   elif ech=='02' or ech=='2':
     print(Colorate.Vertical(Colors.yellow_to_red, banners.banner1))
     print(f'\n[ {c.yellow}∆{c.white} ] O Fenex, é uma ferramenta de pentester, ele tem a capacidade de encontrar diretórios em sites, e páginas que podem haver alguma vulnerabilidade.\n\n[ {c.yellow}V{c.white} ] Versão: 3.0\n\n[ {c.yellow}×{c.white} ] Bugs: Caso tenha encontrado algum bug no Fenix, faça um Bug-Report entrando em contato com o criador.')
@@ -112,3 +147,4 @@ try:
     sys.exit()
 except KeyboardInterrupt:
   print(f'\n[#] O programa foi interrompido.')
+  
