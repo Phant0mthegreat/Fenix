@@ -39,7 +39,19 @@ try:
     if response.status_code==200:
       qgel=qgel+1
       qnut=qnut+1
-      print(f'[ {c.green}!{c.white} ] {uri.geturl()} - Encontrada ({qgel}{c.green}/{c.white}100)\n')
+      print(f'[ {c.green}!{c.white} ] {uri.geturl()} [Status:{c.green}200{c.white}] - Encontrada ({qgel}{c.green}/{c.white}100)\n')
+    elif response.status_code==301:
+      qgel=qgel+1
+      qnut=qnut+1
+      print(f'[ {c.blue}!{c.white} ] {uri.geturl()} [Status:{c.blue}301{c.white}] - Encontrada ({qgel}{c.blue}/{c.white}100)\n')
+    elif response.status_code==302:
+      qgel=qgel+1
+      qnut=qnut+1
+      print(f'[ {c.cyan}!{c.white} ] {uri.geturl()} [Status:{c.cyan}302{c.white}] - Encontrada ({qgel}{c.cyan}/{c.white}100)\n')
+    elif response.status_code==403:
+      qgel=qgel+1
+      qnut=qnut+1
+      print(f'[ {c.yellow}!{c.white} ] {uri.geturl()} [Status:{c.yellow}403{c.white}] - Encontrada ({qgel}{c.yellow}/{c.white}100)\n')
     else:
       qgel=qgel+1
       print(f'[ {c.red}÷{c.white} ] Página {palavra} não foi encontrada... ({qgel}{c.red}/{c.white}100)\n')
@@ -81,7 +93,19 @@ try:
     if response.status_code==200:
       qgel=qgel+1
       qnut=qnut+1
-      print(f'[ {c.green}!{c.white} ] {uri.geturl()} - Encontrada ({qgel}{c.green}/{c.white}100)\n')
+      print(f'[ {c.green}!{c.white} ] {uri.geturl()} [Status:{c.green}200{c.white}] - Encontrada ({qgel}{c.green}/{c.white}100)\n')
+    elif response.status_code==301:
+      qgel=qgel+1
+      qnut=qnut+1
+      print(f'[ {c.blue}!{c.white} ] {uri.geturl()} [Status:{c.blue}301{c.white}] - Encontrada ({qgel}{c.blue}/{c.white}100)\n')
+    elif response.status_code==302:
+      qgel=qgel+1
+      qnut=qnut+1
+      print(f'[ {c.cyan}!{c.white} ] {uri.geturl()} [Status:{c.cyan}302{c.white}] - Encontrada ({qgel}{c.cyan}/{c.white}100)\n')
+    elif response.status_code==403:
+      qgel=qgel+1
+      qnut=qnut+1
+      print(f'[ {c.yellow}!{c.white} ] {uri.geturl()} [Status:{c.yellow}403{c.white}] - Encontrada ({qgel}{c.yellow}/{c.white}100)\n')
     else:
       qgel=qgel+1
   print(f'[{c.blue}&{c.white}] Escaneamento finalizado\n[{c.cyan}√{c.white}] Total de páginas encontradas: {qnut}\n\n{c.bwhite}[ENTER]{c.white} para voltar ao menu.')
@@ -122,7 +146,19 @@ try:
     if response.status_code==200:
       qgel=qgel+1
       qnut=qnut+1
-      print(f'[ {c.green}!{c.white} ] {uri.geturl()} - Encontrada ({qgel}{c.green}/{c.white}13232)\n')
+      print(f'[ {c.green}!{c.white} ] {uri.geturl()} [Status:{c.green}200{c.white}] - Encontrada ({qgel}{c.green}/{c.white}13232)\n')
+    elif response.status_code==301:
+      qgel=qgel+1
+      qnut=qnut+1
+      print(f'[ {c.blue}!{c.white} ] {uri.geturl()} [Status:{c.blue}301{c.white}] - Encontrada ({qgel}{c.blue}/{c.white}13232)\n')
+    elif response.status_code==302:
+      qgel=qgel+1
+      qnut=qnut+1
+      print(f'[ {c.cyan}!{c.white} ] {uri.geturl()} [Status:{c.cyan}302{c.white}] - Encontrada ({qgel}{c.cyan}/{c.white}13232)\n')
+    elif response.status_code==403:
+      qgel=qgel+1
+      qnut=qnut+1
+      print(f'[ {c.yellow}!{c.white} ] {uri.geturl()} [Status:{c.yellow}403{c.white}] - Encontrada ({qgel}{c.yellow}/{c.white}13232)\n')
     else:
       qgel=qgel+1
       print(f'[ {c.red}÷{c.white} ] Página {palavra} não foi encontrada... ({qgel}{c.red}/{c.white}13232)\n')
@@ -164,7 +200,19 @@ try:
     if response.status_code==200:
       qgel=qgel+1
       qnut=qnut+1
-      print(f'[ {c.green}!{c.white} ] {uri.geturl()} - Encontrada ({qgel}{c.green}/{c.white}13232)\n')
+      print(f'[ {c.green}!{c.white} ] {uri.geturl()} [Status:{c.green}200{c.white}] - Encontrada ({qgel}{c.green}/{c.white}13232)\n')
+    elif response.status_code==301:
+      qgel=qgel+1
+      qnut=qnut+1
+      print(f'[ {c.blue}!{c.white} ] {uri.geturl()} [Status:{c.blue}301{c.white}] - Encontrada ({qgel}{c.blue}/{c.white}13232)\n')
+    elif response.status_code==302:
+      qgel=qgel+1
+      qnut=qnut+1
+      print(f'[ {c.cyan}!{c.white} ] {uri.geturl()} [Status:{c.cyan}302{c.white}] - Encontrada ({qgel}{c.cyan}/{c.white}13232)\n')
+    elif response.status_code==403:
+      qgel=qgel+1
+      qnut=qnut+1
+      print(f'[ {c.yellow}!{c.white} ] {uri.geturl()} [Status:{c.yellow}403{c.white}] - Encontrada ({qgel}{c.yellow}/{c.white}13232)\n')
     else:
       qgel=qgel+1
   print(f'[{c.blue}&{c.white}] Escaneamento finalizado\n[{c.cyan}√{c.white}] Total de páginas encontradas: {qnut}\n\n{c.bwhite}[ENTER]{c.white} para voltar ao menu.')
@@ -205,7 +253,19 @@ try:
     if response.status_code==200:
       qgel=qgel+1
       qnut=qnut+1
-      print(f'[ {c.green}!{c.white} ] {uri.geturl()} - Encontrada ({qgel}{c.green}/{c.white}4613)\n')
+      print(f'[ {c.green}!{c.white} ] {uri.geturl()} [Status:{c.green}200{c.white}] - Encontrada ({qgel}{c.green}/{c.white}4613)\n')
+    elif response.status_code==301:
+      qgel=qgel+1
+      qnut=qnut+1
+      print(f'[ {c.blue}!{c.white} ] {uri.geturl()} [Status:{c.blue}301{c.white}] - Encontrada ({qgel}{c.blue}/{c.white}4613)\n')
+    elif response.status_code==302:
+      qgel=qgel+1
+      qnut=qnut+1
+      print(f'[ {c.cyan}!{c.white} ] {uri.geturl()} [Status:{c.cyan}302{c.white}] - Encontrada ({qgel}{c.cyan}/{c.white}4613)\n')
+    elif response.status_code==403:
+      qgel=qgel+1
+      qnut=qnut+1
+      print(f'[ {c.yellow}!{c.white} ] {uri.geturl()} [Status:{c.yellow}403{c.white}] - Encontrada ({qgel}{c.yellow}/{c.white}4613)\n')
     else:
       qgel=qgel+1
       print(f'[ {c.red}÷{c.white} ] Página {palavra} não foi encontrada... ({qgel}{c.red}/{c.white}4613)\n')
@@ -247,7 +307,19 @@ try:
     if response.status_code==200:
       qgel=qgel+1
       qnut=qnut+1
-      print(f'[ {c.green}!{c.white} ] {uri.geturl()} - Encontrada ({qgel}{c.green}/{c.white}4613)\n')
+      print(f'[ {c.green}!{c.white} ] {uri.geturl()} [Status:{c.green}200{c.white}] - Encontrada ({qgel}{c.green}/{c.white}4613)\n')
+    elif response.status_code==301:
+      qgel=qgel+1
+      qnut=qnut+1
+      print(f'[ {c.blue}!{c.white} ] {uri.geturl()} [Status:{c.blue}301{c.white}] - Encontrada ({qgel}{c.blue}/{c.white}4613)\n')
+    elif response.status_code==302:
+      qgel=qgel+1
+      qnut=qnut+1
+      print(f'[ {c.cyan}!{c.white} ] {uri.geturl()} [Status:{c.cyan}302{c.white}] - Encontrada ({qgel}{c.cyan}/{c.white}4613)\n')
+    elif response.status_code==403:
+      qgel=qgel+1
+      qnut=qnut+1
+      print(f'[ {c.yellow}!{c.white} ] {uri.geturl()} [Status:{c.yellow}403{c.white}] - Encontrada ({qgel}{c.yellow}/{c.white}4613)\n')
     else:
       qgel=qgel+1
   print(f'[{c.blue}&{c.white}] Escaneamento finalizado\n[{c.cyan}√{c.white}] Total de páginas encontradas: {qnut}\n\n{c.bwhite}[ENTER]{c.white} para voltar ao menu.')
@@ -288,7 +360,19 @@ try:
     if response.status_code==200:
       qgel=qgel+1
       qnut=qnut+1
-      print(f'[ {c.green}!{c.white} ] {uri.geturl()} - Encontrada ({qgel}{c.green}/{c.white}20469)\n')
+      print(f'[ {c.green}!{c.white} ] {uri.geturl()} [Status:{c.green}200{c.white}- Encontrada ({qgel}{c.green}/{c.white}20469)\n')
+    elif response.status_code==301:
+      qgel=qgel+1
+      qnut=qnut+1
+      print(f'[ {c.blue}!{c.white} ] {uri.geturl()} [Status:{c.blue}301{c.white}] - Encontrada ({qgel}{c.blue}/{c.white}20469)\n')
+    elif response.status_code==302:
+      qgel=qgel+1
+      qnut=qnut+1
+      print(f'[ {c.cyan}!{c.white} ] {uri.geturl()} [Status:{c.cyan}302{c.white}] - Encontrada ({qgel}{c.cyan}/{c.white}20469)\n')
+    elif response.status_code==403:
+      qgel=qgel+1
+      qnut=qnut+1
+      print(f'[ {c.yellow}!{c.white} ] {uri.geturl()} [Status:{c.yellow}403{c.white}] - Encontrada ({qgel}{c.yellow}/{c.white}20469)\n')
     else:
       qgel=qgel+1
       print(f'[ {c.red}÷{c.white} ] Página {palavra} não foi encontrada... ({qgel}{c.red}/{c.white}20469)\n')
@@ -330,7 +414,19 @@ try:
     if response.status_code==200:
       qgel=qgel+1
       qnut=qnut+1
-      print(f'[ {c.green}!{c.white} ] {uri.geturl()} - Encontrada ({qgel}{c.green}/{c.white}20469)\n')
+      print(f'[ {c.green}!{c.white} ] {uri.geturl()} [Status:{c.green}200{c.white}] - Encontrada ({qgel}{c.green}/{c.white}20469)\n')
+    elif response.status_code==301:
+      qgel=qgel+1
+      qnut=qnut+1
+      print(f'[ {c.blue}!{c.white} ] {uri.geturl()} [Status:{c.blue}301{c.white}] - Encontrada ({qgel}{c.blue}/{c.white}20469)\n')
+    elif response.status_code==302:
+      qgel=qgel+1
+      qnut=qnut+1
+      print(f'[ {c.cyan}!{c.white} ] {uri.geturl()} [Status:{c.cyan}302{c.white}] - Encontrada ({qgel}{c.cyan}/{c.white}20469)\n')
+    elif response.status_code==403:
+      qgel=qgel+1
+      qnut=qnut+1
+      print(f'[ {c.yellow}!{c.white} ] {uri.geturl()} [Status:{c.yellow}403{c.white}] - Encontrada ({qgel}{c.yellow}/{c.white}20469)\n')
     else:
       qgel=qgel+1
   print(f'[{c.blue}&{c.white}] Escaneamento finalizado\n[{c.cyan}√{c.white}] Total de páginas encontradas: {qnut}\n\n{c.bwhite}[ENTER]{c.white} para voltar ao menu.')
@@ -371,7 +467,19 @@ try:
     if response.status_code==200:
       qgel=qgel+1
       qnut=qnut+1
-      print(f'[ {c.green}!{c.white} ] {uri.geturl()} - Encontrada ({qgel}{c.green}/{c.white}16)\n')
+      print(f'[ {c.green}!{c.white} ] {uri.geturl()} [Status:{c.green}200{c.white}] - Encontrada ({qgel}{c.green}/{c.white}16)\n')
+    elif response.status_code==301:
+      qgel=qgel+1
+      qnut=qnut+1
+      print(f'[ {c.blue}!{c.white} ] {uri.geturl()} [Status:{c.blue}301{c.white}] - Encontrada ({qgel}{c.blue}/{c.white}16)\n')
+    elif response.status_code==302:
+      qgel=qgel+1
+      qnut=qnut+1
+      print(f'[ {c.cyan}!{c.white} ] {uri.geturl()} [Status:{c.cyan}302{c.white}] - Encontrada ({qgel}{c.cyan}/{c.white}16)\n')
+    elif response.status_code==403:
+      qgel=qgel+1
+      qnut=qnut+1
+      print(f'[ {c.yellow}!{c.white} ] {uri.geturl()} [Status:{c.yellow}403{c.white}] - Encontrada ({qgel}{c.yellow}/{c.white}16)\n')
     else:
       qgel=qgel+1
       print(f'[ {c.red}÷{c.white} ] Página {palavra} não foi encontrada... ({qgel}{c.red}/{c.white}16)\n')
@@ -413,7 +521,19 @@ try:
     if response.status_code==200:
       qgel=qgel+1
       qnut=qnut+1
-      print(f'[ {c.green}!{c.white} ] {uri.geturl()} - Encontrada ({qgel}{c.green}/{c.white}16)\n')
+      print(f'[ {c.green}!{c.white} ] {uri.geturl()} [Status:{c.green}200{c.white}] - Encontrada ({qgel}{c.green}/{c.white}16)\n')
+    elif response.status_code==301:
+      qgel=qgel+1
+      qnut=qnut+1
+      print(f'[ {c.blue}!{c.white} ] {uri.geturl()} [Status:{c.blue}301{c.white}] - Encontrada ({qgel}{c.blue}/{c.white}16)\n')
+    elif response.status_code==302:
+      qgel=qgel+1
+      qnut=qnut+1
+      print(f'[ {c.cyan}!{c.white} ] {uri.geturl()} [Status:{c.cyan}302{c.white}] - Encontrada ({qgel}{c.cyan}/{c.white}16)\n')
+    elif response.status_code==403:
+      qgel=qgel+1
+      qnut=qnut+1
+      print(f'[ {c.yellow}!{c.white} ] {uri.geturl()} [Status:{c.yellow}403{c.white}] - Encontrada ({qgel}{c.yellow}/{c.white}16)\n')
     else:
       qgel=qgel+1
   print(f'[{c.blue}&{c.white}] Escaneamento finalizado\n[{c.cyan}√{c.white}] Total de páginas encontradas: {qnut}\n\n{c.bwhite}[ENTER]{c.white} para voltar ao menu.')
@@ -454,7 +574,19 @@ try:
     if response.status_code==200:
       qgel=qgel+1
       qnut=qnut+1
-      print(f'[ {c.green}!{c.white} ] {uri.geturl()} - Encontrada ({qgel}{c.green}/{c.white}1544)\n')
+      print(f'[ {c.green}!{c.white} ] {uri.geturl()} [Status:{c.green}200{c.white}] - Encontrada ({qgel}{c.green}/{c.white}1544)\n')
+    elif response.status_code==301:
+      qgel=qgel+1
+      qnut=qnut+1
+      print(f'[ {c.blue}!{c.white} ] {uri.geturl()} [Status:{c.blue}301{c.white}] - Encontrada ({qgel}{c.blue}/{c.white}1544)\n')
+    elif response.status_code==302:
+      qgel=qgel+1
+      qnut=qnut+1
+      print(f'[ {c.cyan}!{c.white} ] {uri.geturl()} [Status:{c.cyan}302{c.white}] - Encontrada ({qgel}{c.cyan}/{c.white}1544)\n')
+    elif response.status_code==403:
+      qgel=qgel+1
+      qnut=qnut+1
+      print(f'[ {c.yellow}!{c.white} ] {uri.geturl()} [Status:{c.yellow}403{c.white}] - Encontrada ({qgel}{c.yellow}/{c.white}1544)\n')
     else:
       qgel=qgel+1
       print(f'[ {c.red}÷{c.white} ] Página {palavra} não foi encontrada... ({qgel}{c.red}/{c.white}1544)\n')
@@ -496,7 +628,19 @@ try:
     if response.status_code==200:
       qgel=qgel+1
       qnut=qnut+1
-      print(f'[ {c.green}!{c.white} ] {uri.geturl()} - Encontrada ({qgel}{c.green}/{c.white}1544)\n')
+      print(f'[ {c.green}!{c.white} ] {uri.geturl()} [Status:{c.green}200{c.white}] - Encontrada ({qgel}{c.green}/{c.white}1544)\n')
+    elif response.status_code==301:
+      qgel=qgel+1
+      qnut=qnut+1
+      print(f'[ {c.blue}!{c.white} ] {uri.geturl()} [Status:{c.blue}301{c.white}] - Encontrada ({qgel}{c.blue}/{c.white}1544)\n')
+    elif response.status_code==302:
+      qgel=qgel+1
+      qnut=qnut+1
+      print(f'[ {c.cyan}!{c.white} ] {uri.geturl()} [Status:{c.cyan}302{c.white}] - Encontrada ({qgel}{c.cyan}/{c.white}1544)\n')
+    elif response.status_code==403:
+      qgel=qgel+1
+      qnut=qnut+1
+      print(f'[ {c.yellow}!{c.white} ] {uri.geturl()} [Status:{c.yellow}403{c.white}] - Encontrada ({qgel}{c.yellow}/{c.white}1544)\n')
     else:
       qgel=qgel+1
   print(f'[{c.blue}&{c.white}] Escaneamento finalizado\n[{c.cyan}√{c.white}] Total de páginas encontradas: {qnut}\n\n{c.bwhite}[ENTER]{c.white} para voltar ao menu.')
@@ -537,7 +681,19 @@ try:
     if response.status_code==200:
       qgel=qgel+1
       qnut=qnut+1
-      print(f'[ {c.green}!{c.white} ] {uri.geturl()} - Encontrada ({qgel}{c.green}/{c.white}21149)\n')
+      print(f'[ {c.green}!{c.white} ] {uri.geturl()} [Status:{c.green}200{c.white}] - Encontrada ({qgel}{c.green}/{c.white}21149)\n')
+    elif response.status_code==301:
+      qgel=qgel+1
+      qnut=qnut+1
+      print(f'[ {c.blue}!{c.white} ] {uri.geturl()} [Status:{c.blue}301{c.white}] - Encontrada ({qgel}{c.blue}/{c.white}21149)\n')
+    elif response.status_code==302:
+      qgel=qgel+1
+      qnut=qnut+1
+      print(f'[ {c.cyan}!{c.white} ] {uri.geturl()} [Status:{c.cyan}302{c.white}] - Encontrada ({qgel}{c.cyan}/{c.white}21149)\n')
+    elif response.status_code==403:
+      qgel=qgel+1
+      qnut=qnut+1
+      print(f'[ {c.yellow}!{c.white} ] {uri.geturl()} [Status:{c.yellow}403{c.white}] - Encontrada ({qgel}{c.yellow}/{c.white}21149)\n')
     else:
       qgel=qgel+1
       print(f'[ {c.red}÷{c.white} ] Página {palavra} não foi encontrada... ({qgel}{c.red}/{c.white}21149)\n')
@@ -579,7 +735,19 @@ try:
     if response.status_code==200:
       qgel=qgel+1
       qnut=qnut+1
-      print(f'[ {c.green}!{c.white} ] {uri.geturl()} - Encontrada ({qgel}{c.green}/{c.white}21149)\n')
+      print(f'[ {c.green}!{c.white} ] {uri.geturl()} [Status:{c.green}200{c.white}] - Encontrada ({qgel}{c.green}/{c.white}21149)\n')
+    elif response.status_code==301:
+      qgel=qgel+1
+      qnut=qnut+1
+      print(f'[ {c.blue}!{c.white} ] {uri.geturl()} [Status:{c.blue}301{c.white}] - Encontrada ({qgel}{c.blue}/{c.white}21149)\n')
+    elif response.status_code==302:
+      qgel=qgel+1
+      qnut=qnut+1
+      print(f'[ {c.cyan}!{c.white} ] {uri.geturl()} [Status:{c.cyan}302{c.white}] - Encontrada ({qgel}{c.cyan}/{c.white}21149)\n')
+    elif response.status_code==403:
+      qgel=qgel+1
+      qnut=qnut+1
+      print(f'[ {c.yellow}!{c.white} ] {uri.geturl()} [Status:{c.yellow}403{c.white}] - Encontrada ({qgel}{c.yellow}/{c.white}21149)\n')
     else:
       qgel=qgel+1
   print(f'[{c.blue}&{c.white}] Escaneamento finalizado\n[{c.cyan}√{c.white}] Total de páginas encontradas: {qnut}\n\n{c.bwhite}[ENTER]{c.white} para voltar ao menu.')
@@ -620,7 +788,19 @@ try:
     if response.status_code==200:
       qgel=qgel+1
       qnut=qnut+1
-      print(f'[ {c.green}!{c.white} ] {uri.geturl()} - Encontrada ({qgel}{c.green}/{c.white}990)\n')
+      print(f'[ {c.green}!{c.white} ] {uri.geturl()} [Status:{c.green}200{c.white}] - Encontrada ({qgel}{c.green}/{c.white}990)\n')
+    elif response.status_code==301:
+      qgel=qgel+1
+      qnut=qnut+1
+      print(f'[ {c.blue}!{c.white} ] {uri.geturl()} [Status:{c.blue}301{c.white}] - Encontrada ({qgel}{c.blue}/{c.white}990)\n')
+    elif response.status_code==302:
+      qgel=qgel+1
+      qnut=qnut+1
+      print(f'[ {c.cyan}!{c.white} ] {uri.geturl()} [Status:{c.cyan}302{c.white}] - Encontrada ({qgel}{c.cyan}/{c.white}990)\n')
+    elif response.status_code==403:
+      qgel=qgel+1
+      qnut=qnut+1
+      print(f'[ {c.yellow}!{c.white} ] {uri.geturl()} [Status:{c.yellow}403{c.white}] - Encontrada ({qgel}{c.yellow}/{c.white}990)\n')
     else:
       qgel=qgel+1
       print(f'[ {c.red}÷{c.white} ] Página {palavra} não foi encontrada... ({qgel}{c.red}/{c.white}990)\n')
@@ -662,11 +842,22 @@ try:
     if response.status_code==200:
       qgel=qgel+1
       qnut=qnut+1
-      print(f'[ {c.green}!{c.white} ] {uri.geturl()} - Encontrada ({qgel}{c.green}/{c.white}990)\n')
+      print(f'[ {c.green}!{c.white} ] {uri.geturl()} [Status:{c.green}200{c.white}] - Encontrada ({qgel}{c.green}/{c.white}990)\n')
+    elif response.status_code==301:
+      qgel=qgel+1
+      qnut=qnut+1
+      print(f'[ {c.blue}!{c.white} ] {uri.geturl()} [Status:{c.blue}301{c.white}] - Encontrada ({qgel}{c.blue}/{c.white}990)\n')
+    elif response.status_code==302:
+      qgel=qgel+1
+      qnut=qnut+1
+      print(f'[ {c.cyan}!{c.white} ] {uri.geturl()} [Status:{c.cyan}302{c.white}] - Encontrada ({qgel}{c.cyan}/{c.white}990)\n')
+    elif response.status_code==403:
+      qgel=qgel+1
+      qnut=qnut+1
+      print(f'[ {c.yellow}!{c.white} ] {uri.geturl()} [Status:{c.yellow}403{c.white}] - Encontrada ({qgel}{c.yellow}/{c.white}990)\n')
     else:
       qgel=qgel+1
   print(f'[{c.blue}&{c.white}] Escaneamento finalizado\n[{c.cyan}√{c.white}] Total de páginas encontradas: {qnut}\n\n{c.bwhite}[ENTER]{c.white} para voltar ao menu.')
   input('')
 except KeyboardInterrupt:
   print(f'\n[#] O programa foi interrompido.')
-    
