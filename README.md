@@ -35,5 +35,7 @@ para iniciar o programa
 4.0 = 10/07/2023
 
 5.0 = 16/08/2023
+
+6.0 = 17/08/2023
 ## 📜 Nota
 Para que a instalação funcione, é preciso ter o "git", a línguagem python e o "pip" instalados.
