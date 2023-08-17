@@ -133,12 +133,12 @@ try:
         URIs.URI_rob2()
   elif ech=='02' or ech=='2':
     print(Colorate.Vertical(Colors.yellow_to_red, banners.banner1))
-    print(f'\n[ {c.yellow}∆{c.white} ] O Fenex, é uma ferramenta de pentester, ele tem a capacidade de encontrar diretórios em sites, e páginas que podem haver alguma vulnerabilidade.\n\n[ {c.yellow}V{c.white} ] Versão: 4.0\n\n[ {c.yellow}×{c.white} ] Bugs: Caso tenha encontrado algum bug no Fenix, faça um Bug-Report entrando em contato com o criador.')
+    print(f'\n[ {c.yellow}∆{c.white} ] O Fenex, é uma ferramenta de pentester, ele tem a capacidade de encontrar diretórios em sites, e páginas que podem haver alguma vulnerabilidade.\n\n[ {c.yellow}V{c.white} ] Versão: 5.0\n\n[ {c.yellow}×{c.white} ] Bugs: Caso tenha encontrado algum bug no Fenix, faça um Bug-Report entrando em contato com o criador.')
     print(f'\n{c.bwhite}[ENTER]{c.white} para voltar ao menu.')
     input()
   elif ech=='03' or ech=='3':
     print(Colorate.Vertical(Colors.yellow_to_red, banners.banner1))
-    print(f'\n[ © ] Criador: Phant0m The Great\n[ {c.bblue}D{c.white} ] {c.bblue}Discord{c.white}: phant0mthegreat\n[ ~ ] Mais informações em: https://www.phant0m007.repl.co/\n')
+    print(f'\n[ © ] Criador: Phant0m The Great\n[ {c.bblue}D{c.white} ] {c.bblue}Discord{c.white}: phant0mthegreat\n')
     print(f'\n{c.bwhite}[ENTER]{c.white} para voltar ao menu.')
     input('')
   elif ech=='00' or ech=='0':
@@ -147,4 +147,3 @@ try:
     sys.exit()
 except KeyboardInterrupt:
   print(f'\n[#] O programa foi interrompido.')
-  
