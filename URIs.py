@@ -929,4 +929,4 @@ try:
 except KeyboardInterrupt:
   print(f'\n[#] O programa foi interrompido.')
 except:
-  print(f'\n{banners.erro_000})
+  print(f'\n{banners.erro_000}')
