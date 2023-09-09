@@ -34,10 +34,10 @@ echo -e "${r}
 ${b}"
 echo -e "[${A}+${b}] Intalando pacotes...\n"
 if pip install rich && pip install pystyle ; then
-  echo -e "\n[${v1}+${b}] Boas notícias ! os pacotes foram instalados com sucesso"
+  echo -e "\n[${v1}+${b}] Boas notícias, os pacotes foram instalados com sucesso"
   sleep 2
-  echo -e "\nO Fenix vai começar automaticamente em algun segundos, caso queira iniciá-lo novamente, basta entrar no repositório do Fenix e digitar ${r}python3 Fenix.py${b}"
-  sleep 2
+  echo -e "\nO Fenix vai começar automaticamente em alguns segundos, caso queira iniciá-lo novamente, basta entrar no repositório do Fenix e digitar ${r}python3 Fenix.py${b}"
+  sleep 3
   echo -e "\nIniciando em...\n"
   sleep 1
   echo "5"
