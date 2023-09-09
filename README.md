@@ -25,7 +25,7 @@ Use o comando ↓
  - `python3 Fenix`
 para iniciar o programa
 
-## 🗃️ Versão Atual: 6.0
+## 🗃️ Versão Atual: 6.5
 1.0 = 20/06/2023
 
 2.0 = 25/06/2023
@@ -37,5 +37,7 @@ para iniciar o programa
 5.0 = 16/08/2023
 
 6.0 = 17/08/2023
+
+6.5 = 09/09/2023
 ## 📜 Nota
 Para que a instalação funcione, é preciso ter o "git", a línguagem python e o "pip" instalados.
