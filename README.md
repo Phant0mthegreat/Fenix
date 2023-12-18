@@ -6,11 +6,11 @@
 Fenix, é uma ferramenta feita em python que utiliza o método de brute force para encontrar: URIs (diretórios e arquivos) em sites.
 
 ## 🧪 Testado em...
- > - - [ ] **KALI** 
+ > - - [x] **KALI** 
 
  > - - [x] **TERMUX** 
 
-## 🔧 Instalação no Termux
+## 🔧 Instalação no Kali e Termux
 
 
 
@@ -18,11 +18,11 @@ Fenix, é uma ferramenta feita em python que utiliza o método de brute force pa
 
  - `cd Fenix`
    
- - `bash Install.sh` ou use `pip install -r requirements.txt`
+ - `bash Install.sh`
 
 ## 💉 Iniciar
 Use o comando ↓
- - `python3 Fenix`
+ - `python3 Fenix.py`
 para iniciar o programa
 
 ## 🗃️ Versão Atual: 6.5
