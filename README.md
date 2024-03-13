@@ -11,19 +11,26 @@ Fenix, é uma ferramenta feita em python que utiliza o método de brute force pa
  > - - [x] **TERMUX** 
 
 ## 🔧 Instalação no Kali e Termux
+> [!IMPORTANT]
+> 📩
+> Para que a instalação funcione, é preciso ter o "git", a línguagem python e o "pip" instalados.
 
-
-
- - `git clone github.com/Phant0mthegreat/Fenix`
-
- - `cd Fenix`
-   
- - `bash Install.sh`
-
+Para instalar o Fenix, execute ↓
+```
+git clone github.com/Phant0mthegreat/Fenix
+```
+```
+cd Fenix
+```
+```
+bash Install.sh
+```
 ## 💉 Iniciar
 Use o comando ↓
- - `python3 Fenix.py`
-para iniciar o programa
+```
+python3 Fenix.py
+```
+para iniciar o programa quando quiser
 
 ## 🗃️ Versão Atual: 6.5
 1.0 = 20/06/2023
@@ -39,5 +46,3 @@ para iniciar o programa
 6.0 = 17/08/2023
 
 6.5 = 09/09/2023
-## 📜 Nota
-Para que a instalação funcione, é preciso ter o "git", a línguagem python e o "pip" instalados.
