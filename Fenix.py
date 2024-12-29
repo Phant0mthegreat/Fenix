@@ -138,7 +138,7 @@ try:
     input()
   elif ech=='03' or ech=='3':
     print(Colorate.Vertical(Colors.yellow_to_red, banners.banner1))
-    print(f'\n[ © ] Criador: Phant0m The Great\n[ {c.bblue}D{c.white} ] {c.bblue}Discord{c.white}: phant0mthegreat\n')
+    print(f'\n[ © ] Criador: Phant0m The Great\n[ {c.bblue}D{c.white} ] {c.bblue}Discord{c.white}: phant0mthegreat.\n')
     print(f'\n{c.bwhite}[ENTER]{c.white} para voltar ao menu.')
     input('')
   elif ech=='00' or ech=='0':
