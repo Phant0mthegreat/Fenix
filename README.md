@@ -17,7 +17,7 @@ Fenix, é uma ferramenta feita em python que utiliza o método de brute force pa
 
 Para instalar o Fenix, execute ↓
 ```
-git clone HTTPS://github.com/Phant0mthegreat/Fenix
+git clone https://github.com/Phant0mthegreat/Fenix
 ```
 ```
 cd Fenix
